@@ -30,9 +30,3 @@ defmodule FixedWindowRateLimiter do
     end
   end
 end
-
-# Example Tests:
-# FixedWindowRateLimiter.start()
-# IO.inspect(FixedWindowRateLimiter.check_request("user1")) # {:ok, "200 Request allowed"}
-# IO.inspect(FixedWindowRateLimiter.check_request("user1")) # {:ok, "200 Request allowed"}
-# Enum.each(1..6, fn _ -> IO.inspect(FixedWindowRateLimiter.check_request("user1")) end)
