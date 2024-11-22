@@ -54,7 +54,7 @@ This project demonstrates three rate-limiting algorithms: **Fixed Window**, **Sl
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-username/rate-limiter.git  
+   git clone https://github.com/daniel-ansari/api-rate-limiter-ex.git  
    cd rate-limiter  
    ```
 

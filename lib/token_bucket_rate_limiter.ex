@@ -33,9 +33,3 @@ defmodule TokenBucketRateLimiter do
     end
   end
 end
-
-# Example Tests:
-# TokenBucketRateLimiter.start()
-# Enum.each(1..10, fn _ -> IO.inspect(TokenBucketRateLimiter.check_request("user1", 5, 2)) end)
-# :timer.sleep(2000)
-# IO.inspect(TokenBucketRateLimiter.check_request("user1"))

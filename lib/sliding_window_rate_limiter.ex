@@ -39,8 +39,3 @@ defmodule SlidingWindowRateLimiter do
     end
   end
 end
-
-# Example Tests:
-# SlidingWindowRateLimiter.start()
-# IO.inspect(SlidingWindowRateLimiter.check_request("user1"))
-# Enum.each(1..6, fn _ -> IO.inspect(SlidingWindowRateLimiter.check_request("user1")) end)
