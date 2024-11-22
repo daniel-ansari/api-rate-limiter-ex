@@ -86,4 +86,4 @@ Choosing the Right Algorithm
 - Use Fixed Window for simple use cases where burst traffic isn't a concern.
 - Use Sliding Window for smoother rate limiting with less abrupt blocking.
 - Use Token Bucket when you need to allow bursts of traffic while maintaining an average rate.
-- Token Bucket Algorithm is implemented in the TokenBucketRateLimiter module.
+- Token Bucket Algorithm is implemented in the **TokenBucketRateLimiter** module.
